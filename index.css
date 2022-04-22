@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0, 0, 0, 0.4)), url(istockphoto-160051707-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: center;
+
+}
+
+#nav-bar{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+    padding: 3.5rem 7rem;
+}
+
+#header_2{
+    text-transform: uppercase;
+    font-family: 'Akshar', sans-serif;
+}
+
+#paragraph{
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.middle ul{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.middle ul li{
+    padding: 0 2rem;
+}
+
+.middle ul li a {
+    text-decoration: none;
+    color: #495464;
+    font-weight: 600;
+}
+
+button{
+    text-transform: uppercase;
+    color: #495464;
+    border-color: #495464;
+    background-color: white;
+    padding: 1rem 1.5rem;
+}
+
+.position{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.position h1{
+    text-transform: uppercase;
+    /* word-spacing: 2rem; */
+    letter-spacing: 1.2rem;
+    /* margin: 1rem 0; */
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3.5rem;
+}
+
+.position p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+#sign-in{
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    /* background-color:aqua; */
+    padding: 1rem 1.5rem;
+    width: 8rem;
+    margin: 4rem auto;
+}
+
+#sign-in a{
+    text-decoration: none;
+    color: white;
+}
